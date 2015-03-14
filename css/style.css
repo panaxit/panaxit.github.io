@@ -81,13 +81,13 @@ header h1,
 }
 
 .features p{
-	color: #06b872;
+	color: #f3f3f3;
 }
 
 /*---- Background ----*/
 .features,
 .detail .carousel-indicators .active {
-	background: #0bf397;	
+	background: #4675d3;	
 }
 	
 
