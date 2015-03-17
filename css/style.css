@@ -295,6 +295,10 @@ header .carousel-indicators li {
 	margin-bottom: 40px;
 }
 
+.detail .item {
+	margin-bottom: 150px;
+}
+
 .detail .carousel h1{
 	font-size: 3.8em;
 }
