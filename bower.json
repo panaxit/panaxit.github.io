@@ -1,0 +1,22 @@
+{
+  "name": "panaxit.github.io",
+  "version": "0.0.0",
+  "homepage": "http://panaxit.github.io/",
+  "authors": [
+    "Benjamin Orozco <benoror@gmail.com>"
+  ],
+  "description": "PanaxIT landing page",
+  "main": "index.html",
+  "license": "Copyright 2015 PanaxIT (R)",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "vivus": "~0.2.0"
+  }
+}
