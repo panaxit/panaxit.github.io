@@ -60,6 +60,17 @@ var scrollTop = $(window).scrollTop();
 			
 			if (imagePos < topOfWindow+650) {
 				$(this).addClass("animated fadeInRight");
+
+				// Vivus animation
+				var vivusSvg = $(this).find('.vivus-svg');
+
+				if(vivusSvg && vivusSvg.is(':empty')) {
+					new Vivus(vivusSvg.attr('id'), {
+						type: 'delayed', 
+						duration: 150, 
+						file: vivusSvg.attr('svg-file')
+					});
+				}
 			}		
 				
 	});
