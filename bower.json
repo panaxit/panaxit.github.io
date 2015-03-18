@@ -17,6 +17,9 @@
     "tests"
   ],
   "dependencies": {
-    "vivus": "~0.2.0"
+    "vivus": "~0.2.0",
+    "bootstrap": "~3.3.4",
+    "animatescroll": "~1.0.7",
+    "animate.css": "~3.2.4"
   }
 }
