@@ -6,6 +6,7 @@ $(document).ready(function() {
 	$('.detail .item').addClass('visibility');
 	$('.features .col-md-4').addClass('visibility');
 	$('.social .col-md-12').addClass('visibility');
+	$('.get-it .col-md-12').addClass('visibility');
 });
 
 
@@ -97,13 +98,13 @@ var scrollTop = $(window).scrollTop();
 				
 	});
 	
-	$('.get-it button.app-store').each(function(){
+	$('.get-it .col-md-12').each(function(){
 			
 		var imagePos = $(this).offset().top;
 		var topOfWindow = $(window).scrollTop();
 			
 			if (imagePos < topOfWindow+850) {
-				$(this).addClass("animated pulse");
+				$(this).addClass("animated fadeIn");
 			}		
 				
 	});

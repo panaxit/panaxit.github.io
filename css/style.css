@@ -263,7 +263,7 @@ header .carousel-indicators li {
 	background: url('../img/blank.jpg');
 	background-position: center bottom;
 	background-size: cover;
-	background-repeat: no-repeat;
+	background-repeat: repeat-y;
 	color: white;
 }
 
