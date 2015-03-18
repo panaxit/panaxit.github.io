@@ -257,10 +257,73 @@
 	  	<div class="container">
 	  		<div class="row">
 	  			<div class="col-md-12">
-	  				<h1>Interested? Subscribe to our closed-beta now!</h1>
-	  				<p class="lead">and receive a {gift} when we launch</p>
-	  				<p><a class="btn btn-primary btn-lg" href="#" role="button">SUBSCRIBE</a></p>
+	  				<h1>Interested? Subscribe to our newsletter</h1>
+	  				<p class="lead">to receive updates on our beta program</p>
 	  			</div>
+
+	  			<div class="col-md-12">
+						<form class="form-horizontal">
+
+							<!-- Text input-->
+							<div class="form-group form-group-lg">
+							  <label for="name" class="col-md-4 control-label">Name</label>
+							  <div class="col-md-4">
+							  	<input id="name" name="name" type="text" placeholder="John Doe" class="form-control" required="">
+							  </div>
+							</div>
+							<!-- Text input-->
+							<div class="form-group form-group-lg">
+							  <label for="email" class="col-md-4 control-label">E-Mail</label>
+							  <div class="col-md-4">
+							  	<input id="email" name="email" type="email" placeholder="john@doe.com" class="form-control" required="">
+							  </div>
+							</div>
+							<!-- Text input-->
+							<div class="form-group form-group-lg">
+							  <label for="company" class="col-md-4 control-label">Company</label>
+							  <div class="col-md-4">
+							  	<input id="company" name="company" type="text" placeholder="Company (optional)" class="form-control">
+							  </div>
+							</div>
+							<!-- Select Basic -->
+							<div class="form-group form-group-lg">
+							  <label for="role" class="col-md-4 control-label">Role</label>
+							  <div class="col-md-4">
+							    <select id="role" name="role" class="form-control">
+							      <option value="" selected disabled>Role (optional)</option>
+							      <option>Developer</option>
+							      <option>Sysadmin</option>
+							      <option>IT Architect.</option>
+							      <option>UX / UI</option>
+							      <option>DevOps</option>
+							      <option>Project Manager</option>
+							      <option>Co-Founder</option>
+							    </select>
+							  </div>
+							</div>
+							<!-- Textarea -->
+							<div class="form-group form-group-lg">
+							  <label for="feedback" class="col-md-4 control-label">Feedback</label> 
+							  <div class="col-md-4">
+							    <textarea id="feedback" name="feedback" class="form-control" rows="3" placeholder="Tell us about your company (size, industry, etc.), comments &amp; feedback!"></textarea>
+							  </div>
+							</div>
+							<!-- Checkbox -->
+						  <div class="form-group form-group-lg">
+						    <div class="col-md-offset-4 col-md-4">
+						      <div class="checkbox">
+						        <label>
+						          <input type="checkbox" checked> Receive other news (we promise not to spam you)
+						        </label>
+						      </div>
+						    </div>
+						  </div>
+							<!-- Button -->
+							<button type="submit" class="btn btn-primary btn-lg">SUBSCRIBE</button>
+
+						</form>
+	  			</div>
+
 	  			<div class="col-md-12">
 	  				<hr />
 		  			<ul>
