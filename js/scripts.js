@@ -38,12 +38,12 @@ var scrollTop = $(window).scrollTop();
 		var topOfWindow = $(window).scrollTop();
 			
 			if (imagePos < topOfWindow+650) {
-				$(this).addClass("animated fadeInLeft");
+				$(this).addClass("animated fadeIn");
 			}		
 				
 	});
 	
-	$('.purchase button.app-store').each(function(){
+	$('.purchase .row').each(function(){
 			
 		var imagePos = $(this).offset().top;
 		var topOfWindow = $(window).scrollTop();
