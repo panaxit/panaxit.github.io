@@ -31,6 +31,17 @@ var scrollTop = $(window).scrollTop();
 	}
 	
 	
+	$('.get-it .col-md-12').each(function(){
+			
+		var imagePos = $(this).offset().top;
+		var topOfWindow = $(window).scrollTop();
+			
+			if (imagePos < topOfWindow+650) {
+				$(this).addClass("animated fadeIn");
+			}		
+				
+	});
+	
 //animations	
 	$('.payoff h1').each(function(){
 			
@@ -92,19 +103,8 @@ var scrollTop = $(window).scrollTop();
 		var imagePos = $(this).offset().top;
 		var topOfWindow = $(window).scrollTop();
 			
-			if (imagePos < topOfWindow+550) {
-				$(this).addClass("animated fadeInLeft");
-			}		
-				
-	});
-	
-	$('.get-it .col-md-12').each(function(){
-			
-		var imagePos = $(this).offset().top;
-		var topOfWindow = $(window).scrollTop();
-			
 			if (imagePos < topOfWindow+850) {
-				$(this).addClass("animated fadeIn");
+				$(this).addClass("animated fadeInLeft");
 			}		
 				
 	});
