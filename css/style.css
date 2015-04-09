@@ -83,7 +83,7 @@ header h1,
 }
 
 /*---- Background ----*/
-.features,
+.features, .get-it,
 .detail .carousel-indicators .active {
 	background: #4675d3;	
 }
@@ -261,7 +261,7 @@ header .tab-content {
 
 .purchase{
 	overflow: hidden;
-	padding: 100px 0px 0px 0px;
+	padding: 50px 0px 50px 0px;
 	min-height: 200px;
 }
 
@@ -277,8 +277,13 @@ header .tab-content {
 /*-----------------------------------------------------------------------------------*/
 
 .get-it{
-	padding: 100px 0px 100px 0px;
+	padding: 50px 0px 50px 0px;
 	text-align: center;
+	color: #ffffff;
+}
+
+.get-it h1 {
+	color: #ffffff;
 }
 
 .get-it button.app-store{
@@ -286,6 +291,10 @@ header .tab-content {
 	height: 52px;
 	background: url(../img/badge-appstore.png) #373737 no-repeat 0px 5px;
 	color: white;
+}
+
+.get-it button.btn-lg {
+	font-size: 1.4em;
 }
 
 .get-it hr{
