@@ -148,8 +148,8 @@ nav.navbar.fixed-to-top{
 /*-----------------------------------------------------------------------------------*/
 
 header{
-	padding: 50px 0px 0px 0px;
-	height: 960px;
+	padding: 25px 0px 0px 0px;
+	max-height: 960px;
 	background: url('../img/sunset.jpg');
 	background-color: white!important;
 	background-size: cover;
@@ -166,6 +166,7 @@ header h1{
 }
 
 header p.lead{
+	padding: 0px 0px 10px 0px;
 	font-size: 36px;
 }
 
@@ -216,6 +217,25 @@ header .carousel-indicators li {
 }
 
 /*
+Centered nav-tabs
+http://stackoverflow.com/questions/9421966/how-do-i-center-the-twitter-bootstrap-tabs-on-the-page
+ */
+header .nav-tabs > li, header .nav-pills > li {
+		font-size: 1.4em;
+    float:none;
+    display:inline-block;
+    *display: inline;     /* for IE7*/
+    *zoom:1;              /* for IE7*/
+}
+header .nav-tabs, header .nav-pills {
+    text-align:center;
+}
+
+header .tab-content {
+	padding: 25px 0px 25px 0px;
+}
+
+/*
 	Video Embed
 	http://embedresponsively.com/
  */
@@ -236,11 +256,28 @@ header .carousel-indicators li {
 }
 
 /*-----------------------------------------------------------------------------------*/
+/* PURCHASE
+/*-----------------------------------------------------------------------------------*/
+
+.purchase{
+	overflow: hidden;
+	padding: 100px 0px 0px 0px;
+	min-height: 200px;
+}
+
+.purchase button.app-store{
+	width: 152px;
+	height: 52px;
+	background: url(../img/badge-appstore.png) #3a3a3a no-repeat 0px 5px;
+	color: white;
+}
+
+/*-----------------------------------------------------------------------------------*/
 /*	GET-IT
 /*-----------------------------------------------------------------------------------*/
 
 .get-it{
-	padding: 180px 0px 100px 0px;
+	padding: 100px 0px 100px 0px;
 	text-align: center;
 }
 
@@ -289,30 +326,13 @@ header .carousel-indicators li {
 }
 
 /*-----------------------------------------------------------------------------------*/
-/* PURCHASE
-/*-----------------------------------------------------------------------------------*/
-
-.purchase{
-	overflow: hidden;
-	padding: 0px 0px 100px 0px;
-	min-height: 200px;
-}
-
-.purchase button.app-store{
-	width: 152px;
-	height: 52px;
-	background: url(../img/badge-appstore.png) #3a3a3a no-repeat 0px 5px;
-	color: white;
-}
-
-/*-----------------------------------------------------------------------------------*/
 /*	PAYOFF
 /*-----------------------------------------------------------------------------------*/
 
 .payoff{
 	overflow: hidden;
-	padding: 230px 0px 150px 0px;
-	min-height: 600px;
+	padding: 100px 0px 100px 0px;
+	min-height: 300px;
 	background: url('../img/blank.jpg');
 	background-position: center bottom;
 	background-size: cover;
@@ -424,7 +444,7 @@ header .carousel-indicators li {
 
 .features{
 	overflow: hidden;
-	padding: 150px 0px 120px 0px;
+	padding: 50px 0px 50px 0px;
 	min-height: 400px;
 	color: black;
 }

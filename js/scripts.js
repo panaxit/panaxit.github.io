@@ -30,6 +30,17 @@ var scrollTop = $(window).scrollTop();
 		$('.navbar-default').removeClass('fixed-to-top');
 	}
 	
+	$('.purchase .row').each(function(){
+			
+		var imagePos = $(this).offset().top;
+		var topOfWindow = $(window).scrollTop();
+			
+			if (imagePos < topOfWindow+650) {
+				$(this).addClass("animated pulse");
+			}		
+				
+	});
+	
 	
 	$('.get-it .col-md-12').each(function(){
 			
@@ -50,17 +61,6 @@ var scrollTop = $(window).scrollTop();
 			
 			if (imagePos < topOfWindow+650) {
 				$(this).addClass("animated fadeIn");
-			}		
-				
-	});
-	
-	$('.purchase .row').each(function(){
-			
-		var imagePos = $(this).offset().top;
-		var topOfWindow = $(window).scrollTop();
-			
-			if (imagePos < topOfWindow+650) {
-				$(this).addClass("animated pulse");
 			}		
 				
 	});
