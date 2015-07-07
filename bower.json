@@ -1,14 +1,14 @@
 {
-  "name": "panaxit.github.io",
-  "version": "0.0.0",
-  "homepage": "http://panaxit.github.io/",
+  "name": "panax.io",
+  "version": "0.0.1",
+  "homepage": "http://panax.io/",
   "authors": [
     "Benjamin Orozco <benoror@gmail.com>"
   ],
-  "description": "PanaxIT landing page",
-  "main": "index.html",
-  "license": "Copyright 2015 PanaxIT (R)",
   "private": true,
+  "license": "Copyright 2015 PanaxIT (R)",
+  "description": "Panax.io landing page",
+  "main": "index.html",
   "ignore": [
     "**/.*",
     "node_modules",
