@@ -513,6 +513,10 @@ header .tab-content {
 	transition: all 0.3s;
 }
 
+.social a.sm {
+	font-size: 1em;
+}
+
 .social a:hover{
 	text-decoration: none;
 	cursor: pointer;
@@ -612,4 +616,16 @@ header, .social{
         background-size: 98%;
     	color: white;
     }
+}
+
+/*-----------------------------------------------------------------------------------*/
+/* JOBS
+/*-----------------------------------------------------------------------------------*/
+
+.jobs{
+	padding: 50px 0px 50px 0px;
+}
+
+.jobs h1 {
+	margin: 50px 0px 50px 0px;
 }

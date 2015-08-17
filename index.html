@@ -26,7 +26,7 @@
 	  
 	  <!-- NAVBAR
 	      ================================================== -->
-	  <nav class="navbar navbar-default"le="navigation">
+	  <nav class="navbar navbar-default" role="navigation">
 	  	  <div class="container">
 			  <div class="navbar-header">
 			    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -42,12 +42,10 @@
 			  </div>
 			  <div class="collapse navbar-collapse navbar-ex1-collapse">
 			    <ul class="nav navbar-nav">
-			      <li><a onclick="$('header').animatescroll({padding:71});">START</a></li>
+			      <li><a href="#what" onclick="$('header').animatescroll({padding:71});">START</a></li>
 			      <li><a onclick="$('.get-it').animatescroll({padding:71});">SUBSCRIBE</a></li>
-			      <li><a onclick="$('.payoff').animatescroll({padding:71});">TECHNOLOGY</a></li>
-			      <li><a onclick="$('.features').animatescroll({padding:71});">FEATURES</a></li>
-			      <li><a onclick="$('.social').animatescroll({padding:71});">CONTACT</a></li>
 			      <li><a target="_blank" href="https://github.com/panaxit/panax/blob/master/README.md">DOCS</a></li>
+			      <li><a onclick="$('.social').animatescroll({padding:71});">CONTACT</a></li>
 			      <li>
 				      <a href="https://github.com/panaxit/panax">
 				      	<iframe src="https://ghbtns.com/github-btn.html?user=panaxit&repo=panax&type=star&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
@@ -74,6 +72,8 @@
 					  <ul class="nav nav-pills" role="tablist">
 					    <li role="presentation" class="active"><a href="#what" aria-controls="what" role="tab" data-toggle="tab">What is it?</a></li>
 					    <li role="presentation"><a href="#how" aria-controls="how" role="tab" data-toggle="tab">How does it work?</a></li>
+					    <li role="presentation"><a href="#payoff" aria-controls="how" role="tab" data-toggle="tab" onclick="$('.payoff').animatescroll({padding:71});">Technology</a></li>
+			      	<li role="presentation"><a href="#features" onclick="$('.features').animatescroll({padding:71});">Features</a></li>
 					  </ul>
 					  <!-- Tab panes -->
 					  <div class="tab-content">
@@ -368,6 +368,10 @@
 							<br />
 	  			  	<a href="https://gitter.im/panaxit/panax">
 	  			  		<img src="https://img.shields.io/badge/gitter-join_chat_%E2%86%92-1dce73.svg" />
+	  			  	</a>
+							<br />
+	  			  	<a href="/jobs/" class="sm">
+	  			  		/jobs
 	  			  	</a>
 	  			   </div>
 	  		  </div>
